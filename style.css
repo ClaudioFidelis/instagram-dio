@@ -55,11 +55,11 @@ body{
     background-color: #ffffff;
     width: 100%;
     padding: 1.3rem;
-    /* border: 1px solid lightgray; */
+    border: 1px solid lightgray;
 }
 
 .group:nth-child(1){
-    min-height: 19rem;
+    min-height: 16rem;
 }
 
 .instagram-logo{
@@ -96,4 +96,35 @@ body{
 
 .link-blue{
     color: #0095f6;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0px;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url("./img/apple-button.png");
+}
+
+.app-download:nth-child(2){
+    background-image: url("./img/googleplay-button.png");
 }
