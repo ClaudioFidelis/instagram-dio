@@ -7,3 +7,18 @@
     font-size: 14px;
 }
 
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243,243,243);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
