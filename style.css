@@ -38,11 +38,6 @@ body{
     height: 50rem;
 }
 
-
-.profile-photo img{
-    width: 100px;
-}
-
 .instagram-continue{
     display: flex;
     align-items: center;
@@ -65,4 +60,16 @@ body{
 
 .group:nth-child(1){
     min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
 }
