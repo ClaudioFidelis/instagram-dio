@@ -63,3 +63,6 @@ body{
     border: 1px solid lightgray;
 }
 
+.group:nth-child(1){
+    min-height: 19rem;
+}
